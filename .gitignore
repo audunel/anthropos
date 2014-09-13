@@ -1,5 +1,5 @@
 # Sensitive settings
-ldap_settings.inc.php
+settings/ldap_settings.inc.php
 
 # OSX
 .DS_Store
