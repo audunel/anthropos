@@ -1,22 +1,22 @@
 <?php
 	
 	##### Display Functions #####
-	
-	function getCurrentPage()
+
+	function getSearchTerm()
 	{
-		if (isset($_GET["p"]))
+		if (isset($_GET["s"]))
 		{
-			return htmlspecialchars($_GET["p"]);
+			return htmlspecialchars($_GET["s"]);
 		}
 		
 		return null;
 	}
 
-	function getSearch()
+	function getPersonUID()
 	{
-		if (isset($_GET["s"]))
+		if (isset($_GET["uid"]))
 		{
-			return htmlspecialchars($_GET["s"]);
+			return htmlspecialchars($_GET["uid"]);
 		}
 		
 		return null;

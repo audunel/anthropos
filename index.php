@@ -7,21 +7,8 @@
 		// User is logged in
 		
 		require_once("include/navbar.php");
-
-		$p = getCurrentPage();
 		
-		$display = "pages/home.php";
-		
-		foreach ($pages as $name => $link)
-		{
-			if ($p == $link[0])
-			{
-				$display = "pages/" . $link[1];
-				break;
-			}
-		}
-		
-		require($display);
+		require("pages/home.php");
 		
 	} else
 	{

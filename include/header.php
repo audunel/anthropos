@@ -6,7 +6,7 @@
 
 	require_once("settings/ldap_connect.inc.php");
 	require_once("functions/functions.inc.php");
-	require_once("settings/pages.inc.php");
+	require_once("settings/menu.inc.php");
 	
 ?>
 

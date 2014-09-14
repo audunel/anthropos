@@ -106,5 +106,35 @@
 		}
 		return $code;
 	}
+
+	function getGoups($g){
+		$groups = array();
+
+		$groups["comitees"] = array();
+		$groups["rights"] = array();
+		$groups["sections"] = array();
+		$groups["positions"] = array();
+
+		foreach ($g as $value)
+		{
+			if ($i = strpos($value, "comitees"))
+			{
+				$n = strpos($)
+			} else if ($i = strpos($value, "comitees"))
+			{
+				// do stuff
+			} else if ($i = strpos($value, "comitees"))
+			{
+				// do stuff
+			} else if ($i = strpos($value, "comitees"))
+			{
+				// do stuff
+			} else
+			{
+				// do stuff
+			}
+		}
+
+	}
 	
 ?>
