@@ -115,6 +115,7 @@
 		$groups["sections"] = array();
 		$groups["positions"] = array();
 
+		/*
 		foreach ($g as $value)
 		{
 			if ($i = strpos($value, "comitees"))
@@ -134,6 +135,7 @@
 				// do stuff
 			}
 		}
+		 */
 
 	}
 	
